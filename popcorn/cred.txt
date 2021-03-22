@@ -1,0 +1,3 @@
+torrenthoster:
+  dbUsername: torrent
+  dbPassword: SuperSecret!!
