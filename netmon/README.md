@@ -9,6 +9,8 @@
   - Email: na@na.com
   - Password: PrTg@dmin2018 -> PrTg@dmin2019
 - https://kb.paessler.com/en/topic/61108-what-security-features-does-prtg-include
-
+  - `C:\ProgramData\Paessler\PRTG Network Monitor\Configuration Auto-Backups\`
+  - `C:\ProgramData\Paessler\PRTG Network Monitor\PRTG Configuration.old`
+  - `C:\ProgramData\Paessler\PRTG Network Monitor\PRTG Configuration.nul`
 - `exploit/windows/http/prtg_authenticated_rce`
 
