@@ -24,3 +24,5 @@
 - php filters and LFI
 - hydra brute force
 - pbx and wardialling
+- smtp
+
