@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Fri Mar 26 13:08:47 2021 as: nmap -Pn -p- -oA recon/allports 10.10.10.230
+Host: 10.10.10.230 ()	Status: Up
+Host: 10.10.10.230 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 10010/filtered/tcp//rxapi///	Ignored State: closed (65532)
+# Nmap done at Fri Mar 26 13:09:12 2021 -- 1 IP address (1 host up) scanned in 24.80 seconds

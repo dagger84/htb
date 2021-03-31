@@ -1,0 +1,10 @@
+# Nmap 7.91 scan initiated Fri Mar 26 13:08:47 2021 as: nmap -Pn -p- -oA recon/allports 10.10.10.230
+Nmap scan report for 10.10.10.230
+Host is up (0.033s latency).
+Not shown: 65532 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+80/tcp    open     http
+10010/tcp filtered rxapi
+
+# Nmap done at Fri Mar 26 13:09:12 2021 -- 1 IP address (1 host up) scanned in 24.80 seconds
