@@ -1,0 +1,7 @@
+# Nmap 7.91 scan initiated Tue Mar 30 20:14:21 2021 as: nmap -Pn -sC -sV -oA recon/initial 10.10.10.216
+Nmap scan report for 10.10.10.216
+Host is up.
+All 1000 scanned ports on 10.10.10.216 are filtered
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 30 20:17:43 2021 -- 1 IP address (1 host up) scanned in 202.06 seconds
