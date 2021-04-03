@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Fri Apr  2 19:30:03 2021 as: nmap -p- -oA recon/allports 10.10.10.220 -->
+<nmaprun scanner="nmap" args="nmap -p- -oA recon/allports 10.10.10.220" start="1617406203" startstr="Fri Apr  2 19:30:03 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.220" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1617406203" endtime="1617407588"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="10.10.10.220" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="conn-refused" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="onscreen" method="table" conf="3"/></port>
+</ports>
+<times srtt="25507" rttvar="4475" to="100000"/>
+</host>
+<runstats><finished time="1617407588" timestr="Fri Apr  2 19:53:08 2021" summary="Nmap done at Fri Apr  2 19:53:08 2021; 1 IP address (1 host up) scanned in 1384.44 seconds" elapsed="1384.44" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
